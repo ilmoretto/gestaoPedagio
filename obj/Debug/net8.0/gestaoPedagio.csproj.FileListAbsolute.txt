@@ -12,3 +12,4 @@ C:\Users\sonat\Documents\Alê\IFRO\gestaoPedagio\obj\Debug\net8.0\refint\gestaoP
 C:\Users\sonat\Documents\Alê\IFRO\gestaoPedagio\obj\Debug\net8.0\gestaoPedagio.pdb
 C:\Users\sonat\Documents\Alê\IFRO\gestaoPedagio\obj\Debug\net8.0\gestaoPedagio.genruntimeconfig.cache
 C:\Users\sonat\Documents\Alê\IFRO\gestaoPedagio\obj\Debug\net8.0\ref\gestaoPedagio.dll
+C:\Users\sonat\Documents\Alê\IFRO\gestaoPedagio\obj\Debug\net8.0\gestaoPedagio.sourcelink.json

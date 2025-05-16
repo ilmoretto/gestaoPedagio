@@ -3,20 +3,16 @@ public class Veiculo
     private string _placa;
     private int _qtdEixos;
     private int _tipo;
-    private double _precoPedagio;
-    private double _valorFinal;
-    
+    protected double _precoPedagio;
+    protected double _valorFinal;
     //===========Construtores===========
     public Veiculo() { }
-
     public Veiculo(string placa, int qtdEixos, int tipo, double precoPedagio)
     {
         setPlaca(placa);
         setQtdEixos(qtdEixos);
         setTipo(tipo);
-        setPrecoPedagio(precoPedagio);
     }
-    
     //=========Getters e Setters===========//
     public void setPlaca(string placa)
     {
@@ -29,12 +25,10 @@ public class Veiculo
             throw new Exception("É necessário informar a placa!");
         }
     }
-    
     public string getPlaca()
     {
         return _placa;
     }
-
     public void setQtdEixos(int qtdEixos)
     {
         if (qtdEixos > 0)
@@ -46,24 +40,14 @@ public class Veiculo
             throw new Exception("Quantidade inválida!");
         }
     }
-
     public int getQtdEixos()
     {
         return _qtdEixos;
     }
-
     public void setTipo(int tipo)
     {
-        if (tipo > 0 && tipo <= 3)
-        {
-            _tipo = tipo;
-        }
-        else
-        {
-            throw new Exception("Tipo inválido!");
-        }
+        _tipo = tipo;
     }
-
     public int getTipo()
     {
         return _tipo;
@@ -71,66 +55,57 @@ public class Veiculo
 
     public void setPrecoPedagio(double precoPedagio)
     {
-        if (precoPedagio > 0)
-        {
-            _precoPedagio = precoPedagio;
-        }
-        else
-        {
-            throw new Exception("O valor deve ser maior que zero!");
-        }
+        _precoPedagio = precoPedagio;
     }
-
     public double getPrecoPedagio()
     {
         return _precoPedagio;
     }
-
     public double getValorFinal()
     {
         return _valorFinal;
     }
-    
     //============Métodos===============//
-
-    public void CalcularPedagio(int categoriaVeiulos)
+    public virtual void CalcularPedagio(int categoriaVeiulos)
     {
+        double valorBase = 0;
         switch (categoriaVeiulos)
         {
             case 1: //categoria passeio
-                _precoPedagio = _qtdEixos * 3.00;
-                _valorFinal = _precoPedagio;
-                
+                valorBase = 3.00;
                 break;
-                
             case 2: //categoria utilitários
-                _precoPedagio = _qtdEixos * 3.50;
-                _valorFinal = _precoPedagio + (_precoPedagio * 0.02);
-
+                 valorBase = 3.50;
                 break;
-            
             case 3://categoria ônibus
-                _precoPedagio = _qtdEixos * 5.00;
-                _valorFinal = _precoPedagio + (_precoPedagio * 0.05);
-
+                valorBase = 5.00;
                 break;
-            
             case 4://categoria caminhão
-
-                _precoPedagio = _qtdEixos * 7.00;
-                _valorFinal = _precoPedagio + (_precoPedagio * 0.10);
-
+                valorBase = 7.00;
                 break;
+            default:
+                throw new Exception("Categoria de veículos não encontrada!");
         }
+        _precoPedagio = valorBase * _qtdEixos;
     }
 
-    public void CalculoPedagio(int categoria, int qtdEixos)
+    public void CalcularDesconto()
     {
-        
-        _valorFinal = Calculo.CalcularPedagio(categoria, qtdEixos);
+        double descontoBase = 0;
+        if (_tipo == 1)
+        {
+        }else if (_tipo == 2)
+        {
+            descontoBase = 0.05;
+        }else if (_tipo == 3)
+        {
+            descontoBase = 1;
+        }
+        else
+        {
+            throw new Exception("Tipo de veículo inválido!");
+        }
 
+        _valorFinal = _precoPedagio - (_precoPedagio * descontoBase);
     }
-
-
-
 }
