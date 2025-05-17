@@ -1,9 +1,6 @@
 public class VeiculoDePasseio : Veiculo
 {
-    public VeiculoDePasseio()
-    {
-        
-    }
+    public VeiculoDePasseio() { }
     public override void CalcularPedagio(int categoriaVeiculos)
     {
         base.CalcularPedagio(categoriaVeiculos);

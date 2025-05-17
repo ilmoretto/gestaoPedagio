@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("gestaoPedagio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa935c5826c9e8a5a568af4677b7915a02b8d3ee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+afb76768845ee69386b714dff38c761c1f17c53a")]
 [assembly: System.Reflection.AssemblyProductAttribute("gestaoPedagio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("gestaoPedagio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

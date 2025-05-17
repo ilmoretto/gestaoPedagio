@@ -1,30 +1,47 @@
-﻿Veiculo v1 = new Veiculo();
-v1.setQtdEixos(10);
+﻿Console.WriteLine("==========|PEDÁGIO|==========");
+Console.WriteLine("1 - Veículo de Passeio");
+Console.WriteLine("2 - Veículo Utilitário");
+Console.WriteLine("3 - Ônibus");
+Console.WriteLine("4 - Caminhão");
+Console.WriteLine("0 - Sair");
+Console.Write("Selecione uma opcao: ");
+int opcaoMenu = Convert.ToInt32(Console.ReadLine());
+switch (opcaoMenu)
+{
+    case 0:
 
-VeiculoUtilitario v = new VeiculoUtilitario();
-v.setQtdEixos(10);
-v.setTipo(1);
-v.CalcularPedagio(2);
-Console.WriteLine("\nPedagio Utilitarios: " + v.getPrecoPedagio());
-Console.WriteLine("Pedagio final: " + v.getValorFinal());
+        break;
+    case 1:
 
-Onibus o = new Onibus();
-o.setQtdEixos(10);
-o.setTipo(1);
-o.CalcularPedagio(2);
-Console.WriteLine("\nPedagio ônibus: " + o.getPrecoPedagio());
-Console.WriteLine("Pedagio final: " + o.getValorFinal());
+        break;
+    case 2:
 
-VeiculoDePasseio veiculoPasseio = new VeiculoDePasseio();
-veiculoPasseio.setQtdEixos(10);
-veiculoPasseio.setTipo(1);
-veiculoPasseio.CalcularPedagio(1);
-Console.WriteLine("\nPedagio Passeio: " + veiculoPasseio.getPrecoPedagio());
-Console.WriteLine("Pedagio final: " + veiculoPasseio.getValorFinal());
+        break;
+    case 3:
 
-Caminhao caminhao = new Caminhao();
-caminhao.setQtdEixos(10);
-caminhao.setTipo(3);
-caminhao.CalcularPedagio(4);
-Console.WriteLine("\nPedagio caminhão: " + caminhao.getPrecoPedagio());
-Console.WriteLine("Pedagio final: " + caminhao.getValorFinal());
+        break;
+    case 4:
+
+        break;
+    default:
+        Console.WriteLine("Opção inválida!");
+        break;
+}
+
+void VeiculoDePasseio()
+{
+    Console.WriteLine("==========|VEÍCULO DE PASSEIO|==========");
+    Console.Write("Informe a placa: ");
+    string placa = Console.ReadLine();
+    Console.Write("Informe a quantidade de eixos: ");
+    int qtdEixos = Convert.ToInt32(Console.ReadLine());
+    
+    Console.Clear();
+    Console.WriteLine("==========|TIPO DE VEÍCULO|==========");
+    Console.WriteLine("1 - Pessoa Física");
+    Console.WriteLine("2 - Pessoa Jurídica");
+    Console.WriteLine("3 - Veiculo Oficial");
+    
+    
+
+}
