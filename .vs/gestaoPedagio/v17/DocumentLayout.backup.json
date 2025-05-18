@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\moret\\Documents\\POO\\gestaoPedagio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C1C96266-C24E-494F-959F-D0D7E0EEE15B}|gestaoPedagio.csproj|c:\\users\\moret\\documents\\poo\\gestaopedagio\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1C96266-C24E-494F-959F-D0D7E0EEE15B}|gestaoPedagio.csproj|solutionrelative:veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1C96266-C24E-494F-959F-D0D7E0EEE15B}|gestaoPedagio.csproj|c:\\users\\moret\\documents\\poo\\gestaopedagio\\utilitario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1C96266-C24E-494F-959F-D0D7E0EEE15B}|gestaoPedagio.csproj|solutionrelative:utilitario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1C96266-C24E-494F-959F-D0D7E0EEE15B}|gestaoPedagio.csproj|c:\\users\\moret\\documents\\poo\\gestaopedagio\\onibus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1C96266-C24E-494F-959F-D0D7E0EEE15B}|gestaoPedagio.csproj|solutionrelative:onibus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1C96266-C24E-494F-959F-D0D7E0EEE15B}|gestaoPedagio.csproj|c:\\users\\moret\\documents\\poo\\gestaopedagio\\caminhao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1C96266-C24E-494F-959F-D0D7E0EEE15B}|gestaoPedagio.csproj|solutionrelative:caminhao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1C96266-C24E-494F-959F-D0D7E0EEE15B}|gestaoPedagio.csproj|c:\\users\\moret\\documents\\poo\\gestaopedagio\\passeio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1C96266-C24E-494F-959F-D0D7E0EEE15B}|gestaoPedagio.csproj|solutionrelative:passeio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1C96266-C24E-494F-959F-D0D7E0EEE15B}|gestaoPedagio.csproj|c:\\users\\moret\\documents\\poo\\gestaopedagio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1C96266-C24E-494F-959F-D0D7E0EEE15B}|gestaoPedagio.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Caminhao.cs",
+              "DocumentMoniker": "C:\\Users\\moret\\Documents\\POO\\gestaoPedagio\\Caminhao.cs",
+              "RelativeDocumentMoniker": "Caminhao.cs",
+              "ToolTip": "C:\\Users\\moret\\Documents\\POO\\gestaoPedagio\\Caminhao.cs",
+              "RelativeToolTip": "Caminhao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T17:28:06.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Onibus.cs",
+              "DocumentMoniker": "C:\\Users\\moret\\Documents\\POO\\gestaoPedagio\\Onibus.cs",
+              "RelativeDocumentMoniker": "Onibus.cs",
+              "ToolTip": "C:\\Users\\moret\\Documents\\POO\\gestaoPedagio\\Onibus.cs",
+              "RelativeToolTip": "Onibus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T17:28:02.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Utilitario.cs",
+              "DocumentMoniker": "C:\\Users\\moret\\Documents\\POO\\gestaoPedagio\\Utilitario.cs",
+              "RelativeDocumentMoniker": "Utilitario.cs",
+              "ToolTip": "C:\\Users\\moret\\Documents\\POO\\gestaoPedagio\\Utilitario.cs",
+              "RelativeToolTip": "Utilitario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T17:04:49.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Passeio.cs",
+              "DocumentMoniker": "C:\\Users\\moret\\Documents\\POO\\gestaoPedagio\\Passeio.cs",
+              "RelativeDocumentMoniker": "Passeio.cs",
+              "ToolTip": "C:\\Users\\moret\\Documents\\POO\\gestaoPedagio\\Passeio.cs",
+              "RelativeToolTip": "Passeio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T16:35:04.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\moret\\Documents\\POO\\gestaoPedagio\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\moret\\Documents\\POO\\gestaoPedagio\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAmwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T16:27:32.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Veiculo.cs",
+              "DocumentMoniker": "C:\\Users\\moret\\Documents\\POO\\gestaoPedagio\\Veiculo.cs",
+              "RelativeDocumentMoniker": "Veiculo.cs",
+              "ToolTip": "C:\\Users\\moret\\Documents\\POO\\gestaoPedagio\\Veiculo.cs",
+              "RelativeToolTip": "Veiculo.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAqwGMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T16:37:09.433Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 194,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
